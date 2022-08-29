@@ -1,0 +1,19 @@
+
+   #include <stdio.h>
+   int main()
+   {
+    int x=53,n,sum;
+    printf("Enter n:");
+    scanf("%d",&n);
+    if(n>x)
+    {
+     sum=(n-x)*3;
+    
+    printf("%d",sum);
+    }
+    else
+   {
+    sum=x-n;
+    printf ( "%d",sum);
+    }
+}
